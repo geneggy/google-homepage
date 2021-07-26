@@ -10,11 +10,38 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <h1>hello world</h1>
+    <nav class="nav">
+      <ul class="nav-list nav-list__left">
+        <li class="nav-item">About</li>
+        <li class="nav-item">Store</li>
+      </ul>
 
-    >
+      <ul class="nav-list nav-list__right">
+        <li class="nav-item">Gmail</li>
+        <li class="nav-item">Images</li>
+        <li class="nav-item material-icons">
+          <span class="material-icons-outlined"> apps </span>
+        </li>
+        <li class="nav-item nav-item__right"><button>Sign In</button></li>
+      </ul>
+    </nav>
+
+    <section class="search-section">
+      <img class="google-logo" src="/google_logo.png" alt="" />
+
+      <div class="search-input-container">
+        <span class="material-icons material-icons-outlined"> search </span>
+        <input class="search-input" type="text" />
+        <span class="material-icons material-icons-outlined"> mic </span>
+      </div>
+    </section>
   </body>
 </html>
