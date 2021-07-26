@@ -18,6 +18,7 @@ body {
 
 .nav-item {
   padding-left: 15px;
+  font-size: 13px;
 }
 
 .google-logo {
@@ -28,6 +29,7 @@ body {
 
 .search-input-container {
   margin: 35px auto;
+
   width: 500px;
   display: flex;
   flex-direction: row;
@@ -59,4 +61,5 @@ body {
   margin: 0 4px;
   border: none;
   border-radius: 5px;
+  font-size: 14px;
 }
